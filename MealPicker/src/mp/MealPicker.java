@@ -1,9 +1,14 @@
 package mp;
 
+import java.util.Scanner;
+
 public class MealPicker {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number of meals you wish to generate");
+		int numMeals = scan.nextInt();
+		
 
 	}
 
