@@ -6,8 +6,8 @@ public class Side {
 	ArrayList<String> ingredients ;
 	
 	public Side(String name, ArrayList<String> ingred) {
-		this.name = name;
-		this.ingredients = ingred;
+		setName(name);
+		setIngredients(ingred);
 	}
 	
 	public String getName() {
