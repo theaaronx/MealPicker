@@ -1,7 +1,6 @@
 package mp;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class Meal {
 
@@ -12,7 +11,6 @@ public class Meal {
 	public int difficulty;
 	public int cookTime;
 	public int daysSince;
-	public Date dateSince;
 	
 	/**
 	 * Constructor
@@ -83,14 +81,4 @@ public class Meal {
 	public void setDaysSince(int daysSince) {
 		this.daysSince = daysSince;
 	}
-
-	public Date getDateSince() {
-		return dateSince;
-	}
-
-	public void setDateSince(Date dateSince) {
-		this.dateSince = dateSince;
-	}
-	
-	
 }
