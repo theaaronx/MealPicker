@@ -7,6 +7,7 @@ public class Meal {
 
 	public String name;
 	public String meat;
+	public ArrayList<String> ingredients;
 	public ArrayList<Side> sides;
 	public int difficulty;
 	public int cookTime;
@@ -16,9 +17,10 @@ public class Meal {
 	/**
 	 * Constructor
 	 */
-	public Meal(String name, String meat, ArrayList<Side> sides, int difficulty, int cookTime, int daysSince) {
+	public Meal(String name, String meat, ArrayList<String> ingredients, ArrayList<Side> sides, int difficulty, int cookTime, int daysSince) {
 		setName(name);
 		setMeat(meat);
+		setIngredients(ingredients);
 		setSides(sides);
 		setDifficulty(difficulty);
 		setCookTime(cookTime);
@@ -36,6 +38,14 @@ public class Meal {
 
 	public String getMeat() {
 		return meat;
+	}
+
+	public ArrayList<String> getIngredients() {
+		return ingredients;
+	}
+
+	public void setIngredients(ArrayList<String> ingredients) {
+		this.ingredients = ingredients;
 	}
 
 	public void setMeat(String meat) {
