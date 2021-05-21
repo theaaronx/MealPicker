@@ -16,12 +16,13 @@ public class Meal {
 	/**
 	 * Constructor
 	 */
-	public Meal(String name, String meat, ArrayList<Side> sides, int difficulty, int cookTime) {
+	public Meal(String name, String meat, ArrayList<Side> sides, int difficulty, int cookTime, int daysSince) {
 		setName(name);
 		setMeat(meat);
 		setSides(sides);
 		setDifficulty(difficulty);
 		setCookTime(cookTime);
+		setDaysSince(daysSince);
 		
 	}
 
